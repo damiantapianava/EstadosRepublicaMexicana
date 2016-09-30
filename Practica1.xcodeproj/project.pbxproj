@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A31325CE1D9ECABC0039296E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31325CD1D9ECABC0039296E /* AppDelegate.swift */; };
+		A31325D01D9ECABC0039296E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31325CF1D9ECABC0039296E /* ViewController.swift */; };
+		A31325D31D9ECABD0039296E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31325D11D9ECABD0039296E /* Main.storyboard */; };
+		A31325D51D9ECABD0039296E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31325D41D9ECABD0039296E /* Assets.xcassets */; };
+		A31325D81D9ECABD0039296E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31325D61D9ECABD0039296E /* LaunchScreen.storyboard */; };
+		A31326061D9ECE930039296E /* baja california sur.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325E41D9ECE930039296E /* baja california sur.png */; };
+		A31326071D9ECE930039296E /* baja california.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325E51D9ECE930039296E /* baja california.png */; };
+		A31326081D9ECE930039296E /* campeche.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325E61D9ECE930039296E /* campeche.png */; };
+		A31326091D9ECE930039296E /* chiapas.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325E71D9ECE930039296E /* chiapas.png */; };
+		A313260A1D9ECE930039296E /* chihuahua.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325E81D9ECE930039296E /* chihuahua.png */; };
+		A313260B1D9ECE930039296E /* coahuila de zaragoza.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325E91D9ECE930039296E /* coahuila de zaragoza.png */; };
+		A313260C1D9ECE930039296E /* colima.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325EA1D9ECE930039296E /* colima.png */; };
+		A313260D1D9ECE930039296E /* distrito federal.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325EB1D9ECE930039296E /* distrito federal.png */; };
+		A313260E1D9ECE930039296E /* durango.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325EC1D9ECE930039296E /* durango.png */; };
+		A313260F1D9ECE930039296E /* estado de mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325ED1D9ECE930039296E /* estado de mexico.png */; };
+		A31326101D9ECE930039296E /* guanajuato.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325EE1D9ECE930039296E /* guanajuato.png */; };
+		A31326111D9ECE930039296E /* guerrero.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325EF1D9ECE930039296E /* guerrero.png */; };
+		A31326121D9ECE930039296E /* hidalgo.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325F01D9ECE930039296E /* hidalgo.png */; };
+		A31326131D9ECE930039296E /* jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325F11D9ECE930039296E /* jalisco.png */; };
+		A31326141D9ECE930039296E /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325F21D9ECE930039296E /* mapa.png */; };
+		A31326151D9ECE930039296E /* michoacan de ocampo.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325F31D9ECE930039296E /* michoacan de ocampo.png */; };
+		A31326161D9ECE930039296E /* morelos.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325F41D9ECE930039296E /* morelos.png */; };
+		A31326171D9ECE930039296E /* nayarit.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325F51D9ECE930039296E /* nayarit.png */; };
+		A31326181D9ECE930039296E /* nuevo leon.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325F61D9ECE930039296E /* nuevo leon.png */; };
+		A31326191D9ECE930039296E /* oaxaca.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325F71D9ECE930039296E /* oaxaca.png */; };
+		A313261A1D9ECE930039296E /* puebla.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325F81D9ECE930039296E /* puebla.png */; };
+		A313261B1D9ECE930039296E /* queretaro.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325F91D9ECE930039296E /* queretaro.png */; };
+		A313261C1D9ECE930039296E /* quintana roo.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325FA1D9ECE930039296E /* quintana roo.png */; };
+		A313261D1D9ECE930039296E /* san luis potosi.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325FB1D9ECE930039296E /* san luis potosi.png */; };
+		A313261E1D9ECE930039296E /* sinaloa.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325FC1D9ECE930039296E /* sinaloa.png */; };
+		A313261F1D9ECE930039296E /* sonora.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325FD1D9ECE930039296E /* sonora.png */; };
+		A31326201D9ECE930039296E /* tabasco.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325FE1D9ECE930039296E /* tabasco.png */; };
+		A31326211D9ECE930039296E /* tamaulipas.png in Resources */ = {isa = PBXBuildFile; fileRef = A31325FF1D9ECE930039296E /* tamaulipas.png */; };
+		A31326221D9ECE930039296E /* tlaxcala.png in Resources */ = {isa = PBXBuildFile; fileRef = A31326001D9ECE930039296E /* tlaxcala.png */; };
+		A31326231D9ECE930039296E /* veracruz de ignacio de la llave.png in Resources */ = {isa = PBXBuildFile; fileRef = A31326011D9ECE930039296E /* veracruz de ignacio de la llave.png */; };
+		A31326241D9ECE930039296E /* yucatan.png in Resources */ = {isa = PBXBuildFile; fileRef = A31326021D9ECE930039296E /* yucatan.png */; };
+		A31326251D9ECE930039296E /* zacatecas.png in Resources */ = {isa = PBXBuildFile; fileRef = A31326031D9ECE930039296E /* zacatecas.png */; };
+		A31326271D9ECEA10039296E /* edo-mun.plist in Resources */ = {isa = PBXBuildFile; fileRef = A31326261D9ECEA10039296E /* edo-mun.plist */; };
+		A31326291D9EDDCF0039296E /* ListaEstadosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31326281D9EDDCF0039296E /* ListaEstadosTVC.swift */; };
+		A313262B1D9EF7500039296E /* EstadoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313262A1D9EF7500039296E /* EstadoDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A31325CA1D9ECABC0039296E /* Practica1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31325CD1D9ECABC0039296E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A31325CF1D9ECABC0039296E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A31325D21D9ECABD0039296E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A31325D41D9ECABD0039296E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A31325D71D9ECABD0039296E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A31325D91D9ECABD0039296E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31325E41D9ECE930039296E /* baja california sur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baja california sur.png"; sourceTree = "<group>"; };
+		A31325E51D9ECE930039296E /* baja california.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baja california.png"; sourceTree = "<group>"; };
+		A31325E61D9ECE930039296E /* campeche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campeche.png; sourceTree = "<group>"; };
+		A31325E71D9ECE930039296E /* chiapas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chiapas.png; sourceTree = "<group>"; };
+		A31325E81D9ECE930039296E /* chihuahua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chihuahua.png; sourceTree = "<group>"; };
+		A31325E91D9ECE930039296E /* coahuila de zaragoza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coahuila de zaragoza.png"; sourceTree = "<group>"; };
+		A31325EA1D9ECE930039296E /* colima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colima.png; sourceTree = "<group>"; };
+		A31325EB1D9ECE930039296E /* distrito federal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "distrito federal.png"; sourceTree = "<group>"; };
+		A31325EC1D9ECE930039296E /* durango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = durango.png; sourceTree = "<group>"; };
+		A31325ED1D9ECE930039296E /* estado de mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "estado de mexico.png"; sourceTree = "<group>"; };
+		A31325EE1D9ECE930039296E /* guanajuato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guanajuato.png; sourceTree = "<group>"; };
+		A31325EF1D9ECE930039296E /* guerrero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guerrero.png; sourceTree = "<group>"; };
+		A31325F01D9ECE930039296E /* hidalgo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hidalgo.png; sourceTree = "<group>"; };
+		A31325F11D9ECE930039296E /* jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jalisco.png; sourceTree = "<group>"; };
+		A31325F21D9ECE930039296E /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa.png; sourceTree = "<group>"; };
+		A31325F31D9ECE930039296E /* michoacan de ocampo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "michoacan de ocampo.png"; sourceTree = "<group>"; };
+		A31325F41D9ECE930039296E /* morelos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morelos.png; sourceTree = "<group>"; };
+		A31325F51D9ECE930039296E /* nayarit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nayarit.png; sourceTree = "<group>"; };
+		A31325F61D9ECE930039296E /* nuevo leon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nuevo leon.png"; sourceTree = "<group>"; };
+		A31325F71D9ECE930039296E /* oaxaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oaxaca.png; sourceTree = "<group>"; };
+		A31325F81D9ECE930039296E /* puebla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puebla.png; sourceTree = "<group>"; };
+		A31325F91D9ECE930039296E /* queretaro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queretaro.png; sourceTree = "<group>"; };
+		A31325FA1D9ECE930039296E /* quintana roo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quintana roo.png"; sourceTree = "<group>"; };
+		A31325FB1D9ECE930039296E /* san luis potosi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "san luis potosi.png"; sourceTree = "<group>"; };
+		A31325FC1D9ECE930039296E /* sinaloa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sinaloa.png; sourceTree = "<group>"; };
+		A31325FD1D9ECE930039296E /* sonora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonora.png; sourceTree = "<group>"; };
+		A31325FE1D9ECE930039296E /* tabasco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabasco.png; sourceTree = "<group>"; };
+		A31325FF1D9ECE930039296E /* tamaulipas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamaulipas.png; sourceTree = "<group>"; };
+		A31326001D9ECE930039296E /* tlaxcala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tlaxcala.png; sourceTree = "<group>"; };
+		A31326011D9ECE930039296E /* veracruz de ignacio de la llave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "veracruz de ignacio de la llave.png"; sourceTree = "<group>"; };
+		A31326021D9ECE930039296E /* yucatan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yucatan.png; sourceTree = "<group>"; };
+		A31326031D9ECE930039296E /* zacatecas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zacatecas.png; sourceTree = "<group>"; };
+		A31326261D9ECEA10039296E /* edo-mun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "edo-mun.plist"; sourceTree = "<group>"; };
+		A31326281D9EDDCF0039296E /* ListaEstadosTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListaEstadosTVC.swift; path = ../ListaEstadosTVC.swift; sourceTree = "<group>"; };
+		A313262A1D9EF7500039296E /* EstadoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EstadoDetailVC.swift; path = ../EstadoDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A31325C71D9ECABC0039296E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A31325C11D9ECABC0039296E = {
+			isa = PBXGroup;
+			children = (
+				A31325CC1D9ECABC0039296E /* Practica1 */,
+				A31325CB1D9ECABC0039296E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A31325CB1D9ECABC0039296E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A31325CA1D9ECABC0039296E /* Practica1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A31325CC1D9ECABC0039296E /* Practica1 */ = {
+			isa = PBXGroup;
+			children = (
+				A31325E11D9ECE930039296E /* estados */,
+				A31325CD1D9ECABC0039296E /* AppDelegate.swift */,
+				A313262A1D9EF7500039296E /* EstadoDetailVC.swift */,
+				A31326281D9EDDCF0039296E /* ListaEstadosTVC.swift */,
+				A31325CF1D9ECABC0039296E /* ViewController.swift */,
+				A31325D11D9ECABD0039296E /* Main.storyboard */,
+				A31325D41D9ECABD0039296E /* Assets.xcassets */,
+				A31325D61D9ECABD0039296E /* LaunchScreen.storyboard */,
+				A31325D91D9ECABD0039296E /* Info.plist */,
+			);
+			path = Practica1;
+			sourceTree = "<group>";
+		};
+		A31325E11D9ECE930039296E /* estados */ = {
+			isa = PBXGroup;
+			children = (
+				A31326261D9ECEA10039296E /* edo-mun.plist */,
+				A31325E41D9ECE930039296E /* baja california sur.png */,
+				A31325E51D9ECE930039296E /* baja california.png */,
+				A31325E61D9ECE930039296E /* campeche.png */,
+				A31325E71D9ECE930039296E /* chiapas.png */,
+				A31325E81D9ECE930039296E /* chihuahua.png */,
+				A31325E91D9ECE930039296E /* coahuila de zaragoza.png */,
+				A31325EA1D9ECE930039296E /* colima.png */,
+				A31325EB1D9ECE930039296E /* distrito federal.png */,
+				A31325EC1D9ECE930039296E /* durango.png */,
+				A31325ED1D9ECE930039296E /* estado de mexico.png */,
+				A31325EE1D9ECE930039296E /* guanajuato.png */,
+				A31325EF1D9ECE930039296E /* guerrero.png */,
+				A31325F01D9ECE930039296E /* hidalgo.png */,
+				A31325F11D9ECE930039296E /* jalisco.png */,
+				A31325F21D9ECE930039296E /* mapa.png */,
+				A31325F31D9ECE930039296E /* michoacan de ocampo.png */,
+				A31325F41D9ECE930039296E /* morelos.png */,
+				A31325F51D9ECE930039296E /* nayarit.png */,
+				A31325F61D9ECE930039296E /* nuevo leon.png */,
+				A31325F71D9ECE930039296E /* oaxaca.png */,
+				A31325F81D9ECE930039296E /* puebla.png */,
+				A31325F91D9ECE930039296E /* queretaro.png */,
+				A31325FA1D9ECE930039296E /* quintana roo.png */,
+				A31325FB1D9ECE930039296E /* san luis potosi.png */,
+				A31325FC1D9ECE930039296E /* sinaloa.png */,
+				A31325FD1D9ECE930039296E /* sonora.png */,
+				A31325FE1D9ECE930039296E /* tabasco.png */,
+				A31325FF1D9ECE930039296E /* tamaulipas.png */,
+				A31326001D9ECE930039296E /* tlaxcala.png */,
+				A31326011D9ECE930039296E /* veracruz de ignacio de la llave.png */,
+				A31326021D9ECE930039296E /* yucatan.png */,
+				A31326031D9ECE930039296E /* zacatecas.png */,
+			);
+			path = estados;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A31325C91D9ECABC0039296E /* Practica1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31325DC1D9ECABD0039296E /* Build configuration list for PBXNativeTarget "Practica1" */;
+			buildPhases = (
+				A31325C61D9ECABC0039296E /* Sources */,
+				A31325C71D9ECABC0039296E /* Frameworks */,
+				A31325C81D9ECABC0039296E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practica1;
+			productName = Practica1;
+			productReference = A31325CA1D9ECABC0039296E /* Practica1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A31325C21D9ECABC0039296E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Infraestructura;
+				TargetAttributes = {
+					A31325C91D9ECABC0039296E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A31325C51D9ECABC0039296E /* Build configuration list for PBXProject "Practica1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A31325C11D9ECABC0039296E;
+			productRefGroup = A31325CB1D9ECABC0039296E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A31325C91D9ECABC0039296E /* Practica1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A31325C81D9ECABC0039296E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A313261B1D9ECE930039296E /* queretaro.png in Resources */,
+				A31326151D9ECE930039296E /* michoacan de ocampo.png in Resources */,
+				A31326271D9ECEA10039296E /* edo-mun.plist in Resources */,
+				A31326101D9ECE930039296E /* guanajuato.png in Resources */,
+				A31326251D9ECE930039296E /* zacatecas.png in Resources */,
+				A31326171D9ECE930039296E /* nayarit.png in Resources */,
+				A313260B1D9ECE930039296E /* coahuila de zaragoza.png in Resources */,
+				A313260A1D9ECE930039296E /* chihuahua.png in Resources */,
+				A31326061D9ECE930039296E /* baja california sur.png in Resources */,
+				A31326211D9ECE930039296E /* tamaulipas.png in Resources */,
+				A31325D81D9ECABD0039296E /* LaunchScreen.storyboard in Resources */,
+				A31325D51D9ECABD0039296E /* Assets.xcassets in Resources */,
+				A313261A1D9ECE930039296E /* puebla.png in Resources */,
+				A31326141D9ECE930039296E /* mapa.png in Resources */,
+				A31326131D9ECE930039296E /* jalisco.png in Resources */,
+				A31326161D9ECE930039296E /* morelos.png in Resources */,
+				A313261E1D9ECE930039296E /* sinaloa.png in Resources */,
+				A31326071D9ECE930039296E /* baja california.png in Resources */,
+				A313260F1D9ECE930039296E /* estado de mexico.png in Resources */,
+				A31326121D9ECE930039296E /* hidalgo.png in Resources */,
+				A313261C1D9ECE930039296E /* quintana roo.png in Resources */,
+				A31326241D9ECE930039296E /* yucatan.png in Resources */,
+				A31326231D9ECE930039296E /* veracruz de ignacio de la llave.png in Resources */,
+				A313260E1D9ECE930039296E /* durango.png in Resources */,
+				A31326191D9ECE930039296E /* oaxaca.png in Resources */,
+				A31326081D9ECE930039296E /* campeche.png in Resources */,
+				A31325D31D9ECABD0039296E /* Main.storyboard in Resources */,
+				A313261D1D9ECE930039296E /* san luis potosi.png in Resources */,
+				A313261F1D9ECE930039296E /* sonora.png in Resources */,
+				A31326091D9ECE930039296E /* chiapas.png in Resources */,
+				A31326221D9ECE930039296E /* tlaxcala.png in Resources */,
+				A313260C1D9ECE930039296E /* colima.png in Resources */,
+				A31326201D9ECE930039296E /* tabasco.png in Resources */,
+				A31326181D9ECE930039296E /* nuevo leon.png in Resources */,
+				A31326111D9ECE930039296E /* guerrero.png in Resources */,
+				A313260D1D9ECE930039296E /* distrito federal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A31325C61D9ECABC0039296E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31325D01D9ECABC0039296E /* ViewController.swift in Sources */,
+				A31326291D9EDDCF0039296E /* ListaEstadosTVC.swift in Sources */,
+				A31325CE1D9ECABC0039296E /* AppDelegate.swift in Sources */,
+				A313262B1D9EF7500039296E /* EstadoDetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A31325D11D9ECABD0039296E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31325D21D9ECABD0039296E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A31325D61D9ECABD0039296E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31325D71D9ECABD0039296E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A31325DA1D9ECABD0039296E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A31325DB1D9ECABD0039296E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A31325DD1D9ECABD0039296E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Practica1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.tapiaDamian.Practica1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A31325DE1D9ECABD0039296E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Practica1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.tapiaDamian.Practica1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A31325C51D9ECABC0039296E /* Build configuration list for PBXProject "Practica1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31325DA1D9ECABD0039296E /* Debug */,
+				A31325DB1D9ECABD0039296E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31325DC1D9ECABD0039296E /* Build configuration list for PBXNativeTarget "Practica1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31325DD1D9ECABD0039296E /* Debug */,
+				A31325DE1D9ECABD0039296E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A31325C21D9ECABC0039296E /* Project object */;
+}
