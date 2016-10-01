@@ -13,8 +13,22 @@ class ViewController: UIViewController
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        
+        
+        for fontFamilyName in UIFont.familyNames()
+        {
+            print (fontFamilyName)
+            
+            for fontName in UIFont.fontNamesForFamilyName(fontFamilyName)
+            {
+                print("\t\(fontName)")
+            }
+        }
+        
+        DBManager.getFugituves("Figitive")
     }
 
     override func didReceiveMemoryWarning() {
