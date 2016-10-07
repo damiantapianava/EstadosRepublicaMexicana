@@ -16,6 +16,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //1. Encontrar la ubicación de la BD origen
+        let origen = NSBundle.mainBundle().pathForResource("BountyHunter", ofType: "sqlite")
+        
+        //2. Obten la ubicación de destino
+        let destino = DBManager.instance.directorioDocuments.URLByAppendingPathComponent("BountyHunter.sqlite")
+        
+        //3. Validar si la BD no existe en el destino
+        if NSFileManager.defaultManager().fileExistsAtPath(destino.path!)
+        {
+            return true
+            
+        } else {
+            
+            do
+            {
+                try NSFileManager.defaultManager().copyItemAtPath(origen!, toPath: destino.path!)
+                
+            } catch {
+                
+                print("ERROR: AppDelegate.copyDBToDocuments()")
+                
+                abort()
+            }
+            
+        }
+        
+        //4. Copiar la BD  origen, al destino
+        
         return true
     }
 

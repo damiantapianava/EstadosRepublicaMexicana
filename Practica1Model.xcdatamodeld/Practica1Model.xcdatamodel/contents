@@ -4,8 +4,8 @@
         <attribute name="bounty" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="captdate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="captured" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="capturelat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="capturelon" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="capturedlat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="capturedlon" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="fugitiveID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>

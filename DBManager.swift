@@ -13,14 +13,33 @@ class DBManager
 {
     static let instance = DBManager()
     
-    static func getFugituves(nameEntity: String) -> NSArray
+    func getFugituves(nameEntity: String, _ ordenarPor: String) -> NSArray
     {
-        return NSArray()
+        let elQuery:NSFetchRequest = NSFetchRequest()
+        
+        let laEntidad: NSEntityDescription = NSEntityDescription.entityForName(nameEntity, inManagedObjectContext: self.managedContext!)!
+        
+        elQuery.entity = laEntidad
+        
+        do
+        {
+            let result = try self.managedContext!.executeFetchRequest(elQuery)
+            
+            return result as NSArray
+            
+        } catch {
+            
+            print ("Error al ejecutar request")
+            
+            return NSArray()
+        }
     }
     
-    lazy var context:NSManagedObjectContext? =
+    
+    
+    lazy var managedContext:NSManagedObjectContext? =
     {
-        let persistance = self.store
+        let persistance = self.persistenceStore
         
         if persistance == nil
         {
@@ -36,14 +55,14 @@ class DBManager
     
     lazy var managedModel : NSManagedObjectModel? =
     {
-        let modelURL = NSBundle.mainBundle().URLForResource("BountyHunter", withExtension: "momd")
+        let modelURL = NSBundle.mainBundle().URLForResource("Practica1Model", withExtension: "momd")
         
         var model = NSManagedObjectModel(contentsOfURL : modelURL!)
         
         return model
     }()
     
-    lazy var store : NSPersistentStoreCoordinator? =
+    lazy var persistenceStore : NSPersistentStoreCoordinator? =
     {
         let modelo = self.managedModel
         
@@ -51,6 +70,27 @@ class DBManager
         
         let persist = NSPersistentStoreCoordinator(managedObjectModel: modelo!)
         
+        //Encotranr la ubicacion de la BD
+        
+        let urlDeLaBD = self.directorioDocuments.URLByAppendingPathComponent("BountyHunter.sqlite")
+        
+        do
+        {
+            let opcionesDePersistencia = [NSMigratePersistentStoresAutomaticallyOption:true, NSInferMappingModelAutomaticallyOption: true]
+            
+            try persist.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL:urlDeLaBD, options: opcionesDePersistencia)
+            
+        } catch {
+            
+        }
+        
         return persist
+    }()
+    
+    lazy var directorioDocuments : NSURL =
+    {
+        let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
+        
+        return urls[urls.count - 1]
     }()
 }

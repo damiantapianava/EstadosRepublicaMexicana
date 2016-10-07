@@ -27,8 +27,12 @@ class ViewController: UIViewController
                 print("\t\(fontName)")
             }
         }
+    
+        let fugitives = DBManager.instance.getFugituves("Fugitive", "Captured")
         
-        DBManager.getFugituves("Figitive")
+        print(fugitives[0].valueForKey("name")!)
+        print(fugitives[0].valueForKey("desc")!)
+        print(fugitives[0].valueForKey("bounty")!)
     }
 
     override func didReceiveMemoryWarning() {
