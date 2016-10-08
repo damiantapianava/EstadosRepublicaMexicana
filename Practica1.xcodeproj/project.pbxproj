@@ -56,6 +56,11 @@
 		A3B521FB1D9FE5D600406A14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B521FA1D9FE5D600406A14 /* CoreData.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		A3B522211D9FE91200406A14 /* Practica1Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3B5221F1D9FE91200406A14 /* Practica1Model.xcdatamodeld */; };
 		A3B522231D9FEF7B00406A14 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B522221D9FEF7B00406A14 /* DBManager.swift */; };
+		A3B7F18C1DA8F352007F1F09 /* FugitivesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B7F18B1DA8F352007F1F09 /* FugitivesTVC.swift */; };
+		A3B7F1961DA8FFFC007F1F09 /* Fugitive+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B7F1941DA8FFFC007F1F09 /* Fugitive+CoreDataProperties.swift */; };
+		A3B7F1971DA8FFFC007F1F09 /* Fugitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B7F1951DA8FFFC007F1F09 /* Fugitive.swift */; };
+		A3B7F1991DA90F46007F1F09 /* CapturedTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B7F1981DA90F46007F1F09 /* CapturedTVC.swift */; };
+		A3B7F19B1DA91FE2007F1F09 /* FugitiveAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B7F19A1DA91FE2007F1F09 /* FugitiveAddVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +115,11 @@
 		A3B521FA1D9FE5D600406A14 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A3B522201D9FE91200406A14 /* Practica1Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Practica1Model.xcdatamodel; sourceTree = "<group>"; };
 		A3B522221D9FEF7B00406A14 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBManager.swift; path = ../DBManager.swift; sourceTree = "<group>"; };
+		A3B7F18B1DA8F352007F1F09 /* FugitivesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FugitivesTVC.swift; sourceTree = "<group>"; };
+		A3B7F1941DA8FFFC007F1F09 /* Fugitive+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fugitive+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A3B7F1951DA8FFFC007F1F09 /* Fugitive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fugitive.swift; sourceTree = "<group>"; };
+		A3B7F1981DA90F46007F1F09 /* CapturedTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturedTVC.swift; sourceTree = "<group>"; };
+		A3B7F19A1DA91FE2007F1F09 /* FugitiveAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FugitiveAddVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +159,12 @@
 				A3B521F41D9FC77B00406A14 /* Constantes.swift */,
 				A3B521F21D9FBC8B00406A14 /* CustomLabel.swift */,
 				A3B521F61D9FD0F800406A14 /* CustomTextField.swift */,
+				A3B7F1981DA90F46007F1F09 /* CapturedTVC.swift */,
 				A3B522221D9FEF7B00406A14 /* DBManager.swift */,
+				A3B7F1941DA8FFFC007F1F09 /* Fugitive+CoreDataProperties.swift */,
+				A3B7F1951DA8FFFC007F1F09 /* Fugitive.swift */,
+				A3B7F19A1DA91FE2007F1F09 /* FugitiveAddVC.swift */,
+				A3B7F18B1DA8F352007F1F09 /* FugitivesTVC.swift */,
 				A313262A1D9EF7500039296E /* EstadoDetailVC.swift */,
 				A31326281D9EDDCF0039296E /* ListaEstadosTVC.swift */,
 				A31325CF1D9ECABC0039296E /* ViewController.swift */,
@@ -316,10 +331,15 @@
 				A31325D01D9ECABC0039296E /* ViewController.swift in Sources */,
 				A3B521F51D9FC77B00406A14 /* Constantes.swift in Sources */,
 				A3B521F31D9FBC8B00406A14 /* CustomLabel.swift in Sources */,
+				A3B7F1971DA8FFFC007F1F09 /* Fugitive.swift in Sources */,
 				A3B522231D9FEF7B00406A14 /* DBManager.swift in Sources */,
 				A3B522211D9FE91200406A14 /* Practica1Model.xcdatamodeld in Sources */,
+				A3B7F19B1DA91FE2007F1F09 /* FugitiveAddVC.swift in Sources */,
 				A31326291D9EDDCF0039296E /* ListaEstadosTVC.swift in Sources */,
+				A3B7F1961DA8FFFC007F1F09 /* Fugitive+CoreDataProperties.swift in Sources */,
 				A31325CE1D9ECABC0039296E /* AppDelegate.swift in Sources */,
+				A3B7F1991DA90F46007F1F09 /* CapturedTVC.swift in Sources */,
+				A3B7F18C1DA8F352007F1F09 /* FugitivesTVC.swift in Sources */,
 				A313262B1D9EF7500039296E /* EstadoDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +453,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Practica1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.tapiaDamian.Practica1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -444,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Practica1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.tapiaDamian.Practica1;

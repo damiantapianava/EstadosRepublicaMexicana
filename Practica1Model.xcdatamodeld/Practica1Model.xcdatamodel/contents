@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
-    <entity name="Fugitive" syncable="YES">
+    <entity name="Fugitive" representedClassName="Fugitive" syncable="YES">
         <attribute name="bounty" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="captdate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="captured" optional="YES" attributeType="Boolean" syncable="YES"/>

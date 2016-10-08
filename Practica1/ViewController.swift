@@ -28,11 +28,13 @@ class ViewController: UIViewController
             }
         }
     
-        let fugitives = DBManager.instance.getFugituves("Fugitive", "Captured")
+        /*
+        let fugitives = DBManager.instance.getFugituves("Fugitive", NSPredicate(format: "captured=%@", 1))
         
         print(fugitives[0].valueForKey("name")!)
         print(fugitives[0].valueForKey("desc")!)
         print(fugitives[0].valueForKey("bounty")!)
+        */
     }
 
     override func didReceiveMemoryWarning() {
@@ -58,5 +60,12 @@ class ViewController: UIViewController
             self.presentViewController(ac, animated: true, completion: nil)
         }
     }
+    
+    
+    @IBAction func btnFugitives(sender: AnyObject)
+    {
+        performSegueWithIdentifier("btnFugitivesID", sender: self)
+    }
+    
 }
 

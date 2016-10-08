@@ -13,13 +13,14 @@ class DBManager
 {
     static let instance = DBManager()
     
-    func getFugituves(nameEntity: String, _ ordenarPor: String) -> NSArray
+    func getFugituves(nameEntity: String, _ filtradosPor: NSPredicate) -> NSArray
     {
         let elQuery:NSFetchRequest = NSFetchRequest()
         
         let laEntidad: NSEntityDescription = NSEntityDescription.entityForName(nameEntity, inManagedObjectContext: self.managedContext!)!
         
-        elQuery.entity = laEntidad
+        elQuery.entity    = laEntidad
+        elQuery.predicate = filtradosPor
         
         do
         {
@@ -34,8 +35,6 @@ class DBManager
             return NSArray()
         }
     }
-    
-    
     
     lazy var managedContext:NSManagedObjectContext? =
     {
