@@ -42,9 +42,10 @@ class FugitiveAddVC: UIViewController
             
             let newFugitive = NSManagedObject.init(entity: entityInfo!, insertIntoManagedObjectContext: DBManager.instance.managedContext!) as! Fugitive
             
-            newFugitive.name   = name
-            newFugitive.bounty = bounty
-            newFugitive.desc   = desc
+            newFugitive.name     = name
+            newFugitive.bounty   = bounty
+            newFugitive.desc     = desc
+            newFugitive.captured = false
             
             do
             {
