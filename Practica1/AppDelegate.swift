@@ -40,7 +40,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 
                 abort()
             }
-            
         }
         
         //4. Copiar la BD  origen, al destino
